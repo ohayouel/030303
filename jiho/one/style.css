@@ -1,0 +1,290 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS */
+
+.penuh {
+    position: relative;
+	z-index: 1;
+    width: 500px;
+	height: 888px;
+	margin: auto;
+}
+.bg img{
+    position: absolute;
+	z-index: 2;
+    width: 100%;
+	/* height: 888px; */
+	margin: auto;
+}
+.burem {
+    margin: auto;
+    background-color: #00000010;   
+    margin: 2rem;
+    border-radius: 20px;
+    padding: 1rem;
+    position: absolute;
+    box-shadow: 0 10px 15px rgb(0 0 0 / 20%);
+    box-sizing: border-box;
+	height: 154px;
+	width: 412px;
+    color: rgba(0,0,0,0.8);
+    backdrop-filter: blur(10px);
+    background-blend-mode: overlay;
+    display: flex;
+    align-items: center;
+}
+.burem p {
+	position: absolute;
+	z-index: 3;
+	font-family: sans-serif;
+	filter: blur(0.6px);
+	font-kerning: none;
+}
+.ava {
+	position: absolute;
+	z-index: 3;
+	width: 87px;
+	margin-top: 30px;
+	margin-left: 7px;
+}
+.apk {
+	margin-bottom: 100px;
+	color: #494949;
+	font-size: 15px;
+}
+.datem {
+	margin-bottom: 100px;
+	margin-left: 320px;
+	color: #494949;
+}
+.nama {
+	color: #000000;
+	font-weight: bold;
+	margin-bottom: 1px;
+	margin-left: 115px;
+	font-size: 20px;
+}
+.pesan {
+	color: #000000;
+	margin-top: 55px;
+	margin-left: 115px;
+}
+a {
+	text-decoration: none;
+	color: #202020;
+}
+a:hover {
+	color: #696969;
+}
+.nextm .goto a:hover {
+	color: #696969;
+}
+img {
+	pointer-events: none;
+}
+.kaki {
+	position: absolute;
+	z-index: 3;
+	width: 500px;
+	height: 10px;
+	margin: auto;
+	margin-top: 1135px;
+}
+.textkaki {
+	margin: auto;
+	text-align: center;
+	color: #202020;
+	font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    filter: blur(0.5px);
+}
+.textkakia {
+	color: #202020;
+	font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.jam {
+	width: 100%;
+	margin: auto;
+	position: absolute;
+	z-index: 3;
+	font-family: sans-serif;
+	filter: blur(0.6px);
+	font-kerning: none;
+	color: #202020;
+}
+.pukul {
+	font-size: 115px;
+	text-align: center;
+	margin-top: 40px;
+}
+.tanggal {
+	font-size: 24px;
+	text-align: center;
+	margin-top: 1px;
+}
+/* custom */
+.jihobub {
+	position: absolute;
+	z-index: 3;
+	margin: auto;
+	top: 50%;
+	margin-left: 44px;
+	height: 200px;
+	-webkit-animation-name: jaebub;
+	-webkit-animation-duration: 4s;
+}
+	@-webkit-keyframes jaebub{
+	0% {
+		opacity: 0;
+		filter: blur(3px);
+	}
+	70% {
+		opacity: 0;
+		filter: blur(3px);
+	}
+	100% {
+		opacity: 1;
+		filter: blur(0);
+	}
+}
+.avajiho {
+	width: 102px;
+	margin-top: 0px;
+	margin-left: 7px;
+}
+.apkjiho {
+	margin-bottom: 145px;
+	color: #494949;
+	font-size: 15px;
+}
+.datemjiho {
+	margin-bottom: 145px;
+	margin-left: 320px;
+	color: #494949;
+}
+.namajiho {
+	color: #000000;
+	font-weight: bold;
+	margin-bottom: 70px;
+	margin-left: 115px;
+	font-size: 20px;
+}
+.pesanjiho {
+	color: #000000;
+	margin-top: 60px;
+	margin-left: 115px;
+}
+/* hyperlink */
+.balik {
+	width: 100%;
+	margin: auto;
+	position: absolute;
+	z-index: 3;
+	font-family: sans-serif;
+	filter: blur(0.6px);
+	font-kerning: none;
+	color: #202020;
+}
+.kembali {
+	font-size: 20px;
+	margin-top: 660px;
+	font-weight: bold;
+	margin-left: 50px;
+	-webkit-animation-name: yujubub;
+	-webkit-animation-duration: 4s;
+}
+	@-webkit-keyframes yujubub{
+	0% {
+		opacity: 0;
+		filter: blur(3px);
+		top: 800px;
+	}
+	70% {
+		opacity: 0;
+		filter: blur(3px);
+	}
+	100% {
+		opacity: 1;
+		filter: blur(0);
+	}
+}
+.nextm {
+	width: 100%;
+	margin: auto;
+	position: absolute;
+	z-index: 4;
+	font-family: sans-serif;
+	filter: blur(0.6px);
+	font-kerning: none;
+	color: #202020;
+}
+.goto {
+	font-size: 20px;
+	margin-top: 405px;
+	font-weight: bold;
+	margin-left: 235px;
+	-webkit-animation-name: yujubub;
+	-webkit-animation-duration: 4s;
+}
+	@-webkit-keyframes yujubub{
+	0% {
+		opacity: 0;
+		filter: blur(3px);
+	}
+	70% {
+		opacity: 0;
+		filter: blur(3px);
+	}
+	100% {
+		opacity: 1;
+		filter: blur(0);
+	}
+}
